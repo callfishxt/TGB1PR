@@ -22,7 +22,7 @@ funlist = ['Почему стекольные заводы всегда заня
 
 from telebot import types
 qvestmode = False
-bot = telebot.TeleBot('6478889497:AAGb_tVDuN3Y5dlMGsTwXqdXykAU1JnsW8I')
+bot = telebot.TeleBot()
 def SetOff(bool):
     bool = False
 def SetOn(bool):
